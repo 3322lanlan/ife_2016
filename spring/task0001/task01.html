@@ -66,9 +66,9 @@
 		<p>下面是一个表格，给表格加了一个border="1"好让你看出是一个表格</p>
 		<table border="1">
 			<tr>
-				<td>表头1</td>
-				<td>表头2</td>
-				<td>表头3</td>
+				<th>表头1</th>
+				<th>表头2</th>
+					<th>表头3</th>
 			</tr>
 			<tr>
 				<td>表内容单元格</td>
@@ -97,10 +97,11 @@
 				</div>
 
 				<div class="form_two">
+					<label for="password">请输入密码:</label>
 					<input type="password" id="password" placeholder="请输入密码">
-	          			<label for="password">请重复输入密码:</label>
-	          			<input type="password" id="password" placeholder="请输入密码">
-	          			<p>密码请为6-16位数字</p>
+	          		<label for="password">请重复输入密码:</label>
+	          		<input type="password" id="password" placeholder="请输入密码">
+	          		<p class="error">密码请为6-16位数字</p>
 				</div>
 
 	          	<div class="form_three">
@@ -110,7 +111,7 @@
 					<label for="city">城市:</label>
 	            	<select>
 	              	<option value="北京">北京</option>
-	              	<option value="淄博">淄博</option>
+	              	<option value="包头">包头</option>
 					</select>
 					<label for="hobby">爱好：</label>
 					<input type="checkbox">运动

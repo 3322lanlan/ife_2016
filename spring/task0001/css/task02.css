@@ -30,19 +30,19 @@ nav ul{
 }
 
 nav li {
-  margin: 5px 10px;
-  display: inline-block;
-  font-size: 14px;
+	margin: 5px 10px;
+    display: inline-block;
+    font-size: 14px;
 }
 
-article,.img_sum,aside {
+article,section,aside {
 	width: 90%;
-  padding: 30px;
-  margin: 20px auto;
-  background-color: white;
-  border: thin solid rgb(203, 203, 203);
-  box-shadow:2px 2px 3px rgb(111,111,111);
-  line-height: 20px;
+    padding: 30px;
+    margin: 20px auto;
+    background-color: white;
+    border: thin solid rgb(203, 203, 203);
+    box-shadow:2px 2px 3px rgb(111,111,111);
+    line-height: 20px;
 }
 
 .content p {
@@ -50,18 +50,96 @@ article,.img_sum,aside {
 }
 
 article ul {
-  list-style-type: none;
+   list-style-type: none;
 }
 
 .title_2 {
-  font-size: 18px;
-  color: rgb(122, 122, 122);
+    font-size: 18px;
+    color: rgb(122, 122, 122);
 
 }
 
 .somelabel {
 	font-size: 14px;
-  color: rgb(122, 122, 122);
+    color: rgb(122, 122, 122);
 }
 
-   
+.pic{
+	margin: 20px;
+    width: 240px;
+    border: solid 1px rgb(170,170,170);
+}
+
+section div img {
+    width: 100px;
+    height: 100px;
+} 
+
+.pic img{
+	margin: 10px 70px;
+}
+
+section p {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    font-size: 13px;
+    border: solid 1px rgb(170,170,170);
+    border-collapse:collapse;
+}
+
+th {
+    padding: 5px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    background-color: rgb(15, 15, 15);
+}
+
+td{
+	padding: 5px;
+}
+
+.form_last{
+	background-color: rgb(170,170,170);
+}
+
+aside h2 {
+    padding-left: 10px;
+    border-left: solid 3px rgb(205,205,205);
+}
+
+aside .form_sum label  {
+    width: 30%;
+    float: left;
+    text-align: right;
+}
+
+aside .form_sum{
+	margin: 20px 10px;
+}	
+
+.error {
+    margin-left: 30%;
+    font-size: 14px;
+    color: rgb(170,170,170);
+}
+
+#submit{
+	width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(28, 99, 221);
+    margin-top: 10px;
+}
+
+footer {
+    height: 80px;
+    background-color: black;
+    color: white;
+    line-height: 100px;
+    text-align: center;
+}
