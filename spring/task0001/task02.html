@@ -3,10 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>零基础HTML编码</title>
+	<link rel="stylesheet" href="css/task02.css">
 </head>
 <body>
 		<header>
-			<h1>网站一级标题</h1>
+			<span><a href="https://www.baidu.com">baidu</a></span>
 			<nav>
 				<ul>
 					<li><a href="#">导航链接一</a></li>
@@ -15,23 +16,28 @@
 					<li><a href="#">导航链接四</a></li>
 				</ul>
 			</nav>
-		</header>
-	<section>	
+		</header>	
 		<article>
 			<h2>文章一级标题</h2>
-			<h2>文章二级标题</h2>
-			<p>文章作者 文章发表时间</p>
-			<p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，换行了<br>
-			这是一个很长的段落，<a href="https://www.baidu.com">这个链接将会带你去百度</a>这是一个很长的段落，<strong>这是粗字体</strong>这是一个很长的段落</p>
-			<img src="img/ife.jpg" alt="百度前端技术学院">
-			<p>这是一个很长的段落，<a href="https://www.baidu.com" target="_blank">这个链接将会用新窗口带你去百度</a>这是一个很长的段落，<strong>这是粗字体</strong>这是一个很长的段落</p>
+			<p class="title_2">文章二级标题</p>
+			<p class="somelabel">文章作者 文章发表时间</p>
+			<div class="content">
+				<p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，换行了<br>
+				这是一个很长的段落，<a href="https://www.baidu.com">这个链接将会带你去百度</a>这是一个很长的段落，<strong>这是粗字体</strong>这是一个很长的段落</p>
+				<img src="img/ife.jpg" alt="百度前端技术学院">
+				<p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，换行了<br>这是一个很长的段落这是一个很长的段落<a href="https://www.baidu.com" target="_blank">这个链接将会用新窗口带你去百度</a>这是一个很长的段落，<strong>这是粗字体</strong>这是一个很长的段落</p>
+			</div>
 		</article>
 		
 		<article>
 			<h2>另一篇文章一级标题</h2>
-			<h2>文章二级标题</h2>
-			<p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落这是一个很长的段落，<a href="https://www.baidu.com">这是个去百度的链接</a>这是一个很长的段落，<strong>这是粗字体</strong>这是一个很长的段落</p>
-			<img src="img/ife.jpg" alt="百度前端技术学院">
+			<p class="title_2">文章二级标题</p>
+			<p class="somelabel">文章作者 文章发表时间</p>
+			<div class="content">
+				<p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落
+				这是一个很长的段落，<a href="https://www.baidu.com">这是个去百度的链接</a>这是一个很长的段落，<strong>这是粗字体</strong>这是一个很长的段落</p>
+				<img src="img/ife.jpg" alt="百度前端技术学院">
+			</div>
 			<ul>
 				<li>列表项目一</li>
 				<li>列表项目二</li>
@@ -55,39 +61,39 @@
 		</div>
 		<article>
 			<h2>最后一篇文章一级标题</h2>
-			<h2>文章二级标题</h2>
-			<p>文章作者 文章发表时间</p>
+			<p class="title_2">文章二级标题</p>
+			<p class="somelabel">文章作者 文章发表时间</p>
 			<ol>
 				<li>排名1</li>
 				<li>排名2</li>
 				<li>排名3</li>
 			</ol>
-		</article>
-		<p>下面是一个表格，给表格加了一个border="1"好让你看出是一个表格</p>
-		<table border="1">
-			<tr>
-				<td>表头1</td>
-				<td>表头2</td>
-				<td>表头3</td>
-			</tr>
-			<tr>
-				<td>表内容单元格</td>
-				<td>表内容单元格</td>
-				<td><a href="#">操作</a></td>
-			</tr>
-			<tr>
-				<td>表内容单元格</td>
-				<td>表内容单元格</td>
-				<td><a href="#">操作</a></td>
-			</tr>
-			<tr>
-				<td>总计</td>
-				<td colspan="2">1000</td>
-			</tr>
-		</table>	
+			下面是一个表格，给表格加了一个border="1"好让你看出是一个表格<br>
+			<table border="1">
+				<tr>
+					<td>表头1</td>
+					<td>表头2</td>
+					<td>表头3</td>
+				</tr>
+				<tr>
+					<td>表内容单元格</td>
+					<td>表内容单元格</td>
+					<td><a href="#">操作</a></td>
+				</tr>
+				<tr>
+					<td>表内容单元格</td>
+					<td>表内容单元格</td>
+					<td><a href="#">操作</a></td>
+				</tr>
+				<tr>
+					<td>总计</td>
+					<td colspan="2">1000</td>
+				</tr>
+			</table>
+		</article>	
 		<aside>
 			<h2>这里以后是一个侧栏，这是侧栏的标题</h2>
-			<h2>侧栏注册窗口标题</h2>
+			
 			<form action="">
 				<div class="form_one">
 					<label for="email">请输入邮箱地址:</label>
@@ -98,9 +104,9 @@
 
 				<div class="form_two">
 					<input type="password" id="password" placeholder="请输入密码">
-	          			<label for="password">请重复输入密码:</label>
-	          			<input type="password" id="password" placeholder="请输入密码">
-	          			<p>密码请为6-16位数字</p>
+	          		<label for="password">请重复输入密码:</label>
+	          		<input type="password" id="password" placeholder="请输入密码">
+	          		<p>密码请为6-16位数字</p>
 				</div>
 
 	          	<div class="form_three">
@@ -122,7 +128,6 @@
 	          	</div>
 			</form>
 		</aside>
-	</section>
 			
 	<footer>版权所有©</footer>
 </body>

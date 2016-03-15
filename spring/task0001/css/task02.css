@@ -1,0 +1,67 @@
+body{
+	padding:0;
+	margin: 0;
+	background-color: rgb(220,220,220);
+	font-family: "Microsoft YaHei UI", sans-serif;
+}
+
+header{
+	width:100%;
+	height:70px;
+	background-color: rgb(51,51,51);
+}
+
+header a,a:active{
+    color: #fff;
+    text-decoration: none;
+}
+
+header span{
+	float: left;
+    padding: 5px 40px;
+    font-size: 40px;
+    font-family: cursive,LiSu,sans-serif;
+}
+
+nav ul{
+    float: right;
+    margin: 0px 40px;
+    line-height: 60px;
+}
+
+nav li {
+  margin: 5px 10px;
+  display: inline-block;
+  font-size: 14px;
+}
+
+article,.img_sum,aside {
+	width: 90%;
+  padding: 30px;
+  margin: 20px auto;
+  background-color: white;
+  border: thin solid rgb(203, 203, 203);
+  box-shadow:2px 2px 3px rgb(111,111,111);
+  line-height: 20px;
+}
+
+.content p {
+    text-indent: 2em;
+}
+
+article ul {
+  list-style-type: none;
+}
+
+.title_2 {
+  font-size: 18px;
+  color: rgb(122, 122, 122);
+
+}
+
+.somelabel {
+	font-size: 14px;
+  color: rgb(122, 122, 122);
+}
+
+   
