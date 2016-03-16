@@ -1,0 +1,27 @@
+div {
+	box-sizing: border-box;
+}
+.container{
+	height:500px;background-color: #eee;
+}
+.left{
+	width:200px;float: left;background-color: #fff
+}
+.right{
+	width:120px;float:right;background-color: #fff;
+}
+.center{
+	margin-left: 230px;margin-right:140px;height:450px;background-color: #fff;overflow:auto;
+}
+.container,.left,.right,.center{
+	padding:20px;border:1px solid #999;
+}
+.glogo,.left img{
+	width: 80px;height: 80px;
+}
+.gname,h2{
+	font-weight: bold;color:red;
+}
+.gname{
+	float:right;
+}

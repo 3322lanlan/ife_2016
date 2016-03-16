@@ -1,0 +1,33 @@
+body{
+	padding:0;
+	margin: 0;
+}
+
+.content {
+    width: 400px;
+    height: 200px;
+    background-color: #ccc;
+    position: absolute;
+    left: 50%;
+ 	top: 50%;
+	margin-top:-100px;
+ 	margin-left:-200px;	
+    overflow: hidden;
+}
+.yellow{
+	height: 100px;
+	width:100px;
+	background-color: #fc0;
+	position:absolute;
+	border-radius: 50%;
+}
+
+.one{
+	left:-50px;
+	top:-50px;
+}
+
+.two{
+	right: -50px;
+    bottom: -50px;
+}

@@ -40,23 +40,37 @@ nav li {
     font-size: 14px;
 }
 
-article,section,aside {
-	width: 90%;
-    padding: 40px;
-    margin: 20px auto;
+.left article ,section{
+    padding: 30px;
     background-color: white;
-    border: thin solid rgb(203, 203, 203);
-    box-shadow:2px 2px 3px rgb(111,111,111);
-    line-height: 20px;
+    margin: 20px;
+    overflow: auto;
 }
+.left {
+    overflow: auto;
+
+}
+aside{
+	background-color: white;
+	width:450px;
+	position: absolute;
+	top:90px;
+	right:20px;
+}
+
+
 
 .content p {
     text-indent: 2em;
 }
 
-article ul li ,ol li{
+article ul li {
    list-style-type: none;
    margin:10px;
+}
+
+article ol li{
+    margin:10px 0;
 }
 
 
@@ -72,9 +86,14 @@ article ul li ,ol li{
 }
 
 .pic{
-	margin: 20px;
-    width: 240px;
+	margin: 10px;
+    width: 200px;
     border: solid 1px rgb(170,170,170);
+    float:left;
+}
+
+.content img{
+    width:400px;
 }
 
 section div img {
@@ -83,7 +102,7 @@ section div img {
 } 
 
 .pic img{
-	margin: 10px 70px;
+	margin: 10px 50px;
 }
 
 section p {
@@ -117,7 +136,7 @@ aside h2 {
     border-left: solid 3px rgb(205,205,205);
 }
 
-aside .form_sum label  {
+aside .form_sum label ,textarea {
     width: 30%;
     float: left;
     text-align: right;
