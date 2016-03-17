@@ -253,12 +253,11 @@ header .date{
 	font: 16px/41px "宋体";
 	color: #5a5b5b; 
 	margin-left:30px;
-	padding-top:15px;
-	padding-bottom: 15px;
+	padding-top:16px;
+	padding-bottom: 20px;
 }
-.art_r .art_r_down p .mark_two{
-	font-size:12px;
-	font-style:italic;
+.art_r .art_r_down p .mark_word{
+	font:italic 12px "Microsoft YaHei";
 }
 .art_r .art_r_down p .triangle{
 	 width: 0;
@@ -311,10 +310,9 @@ header .date{
 	float: left;
 	margin: -18px 10px 0 -40px;
 	height: 30px; 
-
 }
 .art_r_down_r p .mark_two{
-
+	float:right;
 }
 
 .art_r_down_r p{
