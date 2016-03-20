@@ -12,3 +12,19 @@ a{ text-decoration: none; color:#393a3a;}
 	 line-height:62px;
 	 background-color:#fff;
 	}
+#top .nav h1{
+	width:70px; 
+	font-size:20px;
+	color:#777777;
+	background:url(../images/logo.png) no-repeat center;
+	background-size:32px;
+	padding-left:120px;
+	}
+#top .nav ul{
+	width:700px;
+	padding-right:50px;
+	}
+#top .nav ul li{
+	display:inline-block;
+	padding:0px 30px;
+	}
