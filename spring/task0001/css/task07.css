@@ -28,3 +28,15 @@ a{ text-decoration: none; color:#393a3a;}
 	display:inline-block;
 	padding:0px 30px;
 	}
+#top .l1{ 
+	border-bottom:4px solid #ED8476;
+	height:57px;
+	}
+#top .nav ul li > a{ 
+	font-size:14px; 
+	display:block; 
+	height:57px;
+}
+#top .nav ul li > a:hover{
+	color:#999;
+	}
