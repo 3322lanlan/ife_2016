@@ -1,2 +1,138 @@
-*{height: auto; margin:0; padding:0; font-family:"微软雅黑";}
+*{height: auto; margin:0; padding:0; font-family:"微软雅黑"; font}
 body{min-width:1200px;}
+li{ list-style: none;}
+#header .left{
+	float:left;
+}
+#header .right{
+	float:right;
+	width:600px;
+}
+#header nav{
+	background-color: #fff;
+	height:62px;
+	line-height: 62px;
+}
+#header nav h1{
+	width:70px; 
+	font-size:20px;
+	color:#777;
+	background:url(../images/logo.png) no-repeat center;
+	background-size:32px;
+	padding-left:120px;
+}
+#header nav ul{
+	width:700px;
+	padding-right: 50px;
+}
+#header nav ul li{
+	display: inline-block;
+	padding:0 20px;
+}
+#header nav ul li a{ 
+	font-size:14px; 
+	display:block; 
+	height:57px;
+	color:#393a3a;
+	text-decoration: none;
+	color:#777;
+}
+#header nav .mark_1{
+	border-bottom: 4px solid #ED8476;
+}
+#header nav .mark_2{
+	color:#ED8476;
+}
+#header nav ul li > a:hover{
+	color:#999;
+}
+#header nav .login{
+	background:url(../images/login.png) no-repeat left;
+	color:#ED8476;
+	padding-left:30px;
+	margin-right: 10px;
+}
+#header .banner{
+	background: url(../images/bg.jpg) no-repeat;
+	height:690px;
+	position:relative;
+}
+#header .banner h1,h2,button{
+	position:absolute;
+	color:#fff;
+}
+#header .banner h1{
+	margin: 220px 100px;
+	font-size: 65px;
+	font-weight: 100;
+}
+#header .banner h2{
+	margin: 300px 100px;
+	font-size: 20px;
+	font-weight: 100;
+	padding-top: 20px;
+}
+#header .banner button{
+	margin:410px 100px;
+	width:333px;
+	height:66px;
+	border:none;
+	background:#E7504D;
+	font-size:30px;
+}
+#header .introduce{
+	height:250px;
+	background:#fff;
+}
+.list_1{ background:url(../images/list_1.png) no-repeat center;}
+.list_2{ background:url(../images/list_2.png) no-repeat center;}
+.list_3{ background:url(../images/list_3.png) no-repeat center;}
+.list_4{ background:url(../images/list_4.png) no-repeat center;}
+#header .introduce ul li{
+	width:24%;
+	text-align: center;
+	display: inline-block;
+	margin-top: 10px;
+	height:100px;
+	padding-top:50px;
+}
+#header .introduce .line{
+	border-right:2px solid #999;
+	font-size:14px;
+	margin-top:80px;
+	color:#777;
+}
+#header .introduce .line_no{
+	border:none;
+}
+#container .con_1{
+	height:360px;
+	background:url(../images/logo.png) no-repeat center #EDEDEC;
+	text-align: center;
+}
+#container .con_1 p{
+	padding-top: 250px;
+	font-size: 50px;
+	color:#777;
+}
+#container .con_2 {
+	height:340px;
+	background:url(../images/map.jpg) no-repeat center;
+	text-align:center;
+	color:#fff; 
+}
+#container .con_2 .title_1{
+	font-size:20px;
+	padding-top:50px;
+}
+#container .con_2 .line_1{
+	width:30px;
+	height:2px;
+	margin:10px auto;
+	background:#fff;
+}
+#container .con_2 .title_2{
+	font-size:12px;
+	color:#fff;
+	line-height: 50px;
+}
