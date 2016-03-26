@@ -54,9 +54,11 @@ li{ list-style: none;}
 }
 /* banner css */
 #header .banner{
-	background: url(../images/bg.jpg) no-repeat;
+	background: url(../images/bg.jpg) no-repeat center;
 	height:690px;
 	position:relative;
+	width:100%;
+	background-size:100%
 }
 #header .banner h1,h2,button{
 	position:absolute;
@@ -122,7 +124,8 @@ li{ list-style: none;}
 	height:340px;
 	background:url(../images/map.jpg) no-repeat center;
 	text-align:center;
-	color:#fff; 
+	color:#fff;
+	background-size:100% 
 }
 #container .con_2 .title_1{
 	font-size:20px;
@@ -191,14 +194,11 @@ li{ list-style: none;}
 	height:500px;
 	padding-top:150px;
 }
-#container .activity .mark_1{
-	margin-left: 150px;
-}
 #container .activity .city{
 	display:inline-block;
 	text-align:center;
-	padding-right:30px;
 	line-height:30px;
+	width:24%;
 }
 #container .activity .city img{ 
 	padding:10px;
