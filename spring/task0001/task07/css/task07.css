@@ -218,31 +218,32 @@ li{ list-style: none;}
 #container .newtime{
 	height:566px;
 	background:url(../images/newtime.png) no-repeat left;
-		position:relative;
+	position:relative;
+	background-size:68%
 }
 #container .newtime .left{
 	text-align: center;
 }
 #container .newtime .left .mark_1{
+	font-size:50px;
+	color:#fff;
+	position:absolute;
+	top:80px;
+	left:580px;
+}
+#container .newtime .left .mark_2{
+	font-size:200px;
+	color:#fff;
+	position: absolute;
+	top:110px;
+	left:430px;
+}
+#container .newtime .left .mark_3{
 	font-size: 40px;
 	color:#fff;
 	position: absolute;
-	top:120px;
-	left:350px;
-}
-#container .newtime .left .mark_2{
-	font-size: 150px;
-	color:#fff;
-	position: absolute;
-	top:150px;
-	left:240px;
-}
-#container .newtime .left .mark_3{
-	font-size: 20px;
-	color:#fff;
-	position: absolute;
 	top:350px;
-	left:330px;
+	left:530px;
 }
 #container .newtime .right{
 	width:30%;
@@ -296,10 +297,11 @@ li{ list-style: none;}
 /* newera css */
 #container .newera{
 	background:url(../images/newworld_2.png) no-repeat right;
+	background-size:33%
 }
 #container .newera .left,.middle{
 	height:522px;
-	width:33%;
+	width:34%;
 	display:inline-block;
 	text-align:center;
 }
