@@ -303,6 +303,9 @@ li{ list-style: none;}
 	display:inline-block;
 	text-align:center;
 }
+#container .newera .eraCon{
+	padding-top: 150px;
+}
 #container .newera .left{
 	background-color:#FF6347;
 }
@@ -318,9 +321,31 @@ li{ list-style: none;}
 	font-size:20px;
 	line-height:35px;
 }
+#container .newera a{
+	display:block;
+	margin:0 auto; 
+	width:180px;
+	height:40px;
+	line-height:40px;
+	margin-top:40px;
+	text-decoration: none;
+}
+#container .newera .left a{
+	border:2px solid #fff;
+	color:#fff;
+}
+#container .newera .middle a{
+	border:2px solid #E7504D;
+	color:#E7504D;
+}
 #container .newera .line_1{
 	width:30px;
 	height:2px;
-	margin:10px auto;
-	background:#333;
+	margin:20px auto;
+}
+#container .newera .left .line_1{
+	background: #fff;
+}
+#container .newera .middle .line_1{
+	background: #808080;
 }
