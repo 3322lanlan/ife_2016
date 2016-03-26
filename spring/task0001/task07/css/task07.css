@@ -231,7 +231,6 @@ li{ list-style: none;}
 	color:#fff;
 	padding-top: 40px;
 	padding-left: 250px;
-
 }
 #container .newtime .left .mark_2{
 	font-size:200px;
@@ -294,12 +293,18 @@ li{ list-style: none;}
 }
 /* newera css */
 #container .newera{
-	background:url(../images/newworld.png) no-repeat right;
-	background-size:33%
+	position:relative;
 }
-#container .newera .left,.middle{
+#container .newera .right{
+	background:url(../images/newworld.png) no-repeat center;
+	background-size:100%;
+	position:absolute;
+	top:0;
+	right:0;
+}
+#container .newera .left,.middle,.right{
 	height:522px;
-	width:34%;
+	width:32%;
 	display:inline-block;
 	text-align:center;
 }
@@ -339,7 +344,7 @@ li{ list-style: none;}
 	color:#E7504D;
 }
 #container .newera .line_1{
-	width:30px;
+	width:40px;
 	height:2px;
 	margin:20px auto;
 }
