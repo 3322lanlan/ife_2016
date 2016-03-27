@@ -354,3 +354,136 @@ li{ list-style: none;}
 #container .newera .middle .line_1{
 	background: #808080;
 }
+/*last volunteer*/
+#container .last .title{
+	text-align:center;
+	padding:100px 0;
+}
+#container .last .title p{
+	width:500px;
+	font-size:12px;
+	color:#666;
+	margin:10px auto;
+	line-height:20px;
+}
+#container .last .line_1{
+	width:40px;
+	height:2px;
+	margin:10px auto;
+	background:#c00;
+}
+#container .information{
+	height:450px;
+	width:1100px;
+	margin:0 auto;
+}
+#container .information .inf_left{
+	float:left;
+}
+#container .information .inf_left ul li{
+	width:350px;
+	height:130px;
+}
+#container .information .inf_left .getblod{
+	font-size:14px;
+}
+#container .information .inf_left .getcol{
+	font-size:12px;
+	color:#aaa;
+	line-height: 20px;
+	margin-top: 20px;
+}
+#container .information .inf_left a{
+	text-decoration: none;
+	background: url(../images/more.png) no-repeat left;
+	padding-left:15px;
+	color:#aaa;
+	float:right;
+}
+#container .information .inf_right{
+	float:right;
+}
+#container .information .inf_right form{
+	width:635px;
+}
+#container .information .inf_right input{
+	width:295px;
+	height:40px;
+	border:none;
+	background-color:#EDEDEE;
+	margin:10px 5px;
+	padding-left:10px;
+}
+#container .information .inf_right textarea{
+	width:97%;
+	height:100px;
+	background-color:#EDEDEE;
+	border:none;
+	margin:5px;
+	font-size:14px;
+	padding-left:10px;
+}
+#container .information .inf_right .sub{
+	width:100%;
+	font-size: 16px;
+}
+footer{
+	text-align:center;
+	width:100%;
+	height:400px;
+	background-color:#778899;
+	color:#fff;
+}
+footer .mark_5{
+	padding-top:80px;
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+footer .mark_6{
+	width:600px;
+	margin:0 auto;
+	line-height: 20px;
+}
+footer form{
+	width:595px;
+	line-height:80px;
+	margin:0 auto;
+}
+footer form input{
+	border:none;
+}
+footer form input[type="email"]{
+	width:500px;
+	height:40px;
+	padding-left:10px;
+	font-size: 16px;
+
+}
+footer form input[type="submit"]{
+	width:80px;
+	height:40px;
+	background:#696266;
+	color:#fff;
+	cursor:pointer;
+	font-size: 16px;
+}
+footer ul li{
+	display:inline-block;
+	padding:20px;
+	margin:10px 0;
+}
+footer .foot{
+	width:100%;
+	height:60px;
+	background-color:#667788;
+}
+footer .foot .foot_l{
+	float:left;
+	padding:20px 0 0 100px;
+}
+footer .foot .foot_r a{
+	text-decoration:none;
+	float:right;
+	padding:20px 100px 0 0;
+	color:#fff;
+}
