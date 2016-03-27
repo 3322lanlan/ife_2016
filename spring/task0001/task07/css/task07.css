@@ -2,7 +2,7 @@
 body{min-width:1200px;}
 li{ list-style: none;}
 a{text-decoration:none;}
-/*header*/
+/*header css*/
 #header .left{
 	float:left;
 }
@@ -53,7 +53,6 @@ a{text-decoration:none;}
 	padding-left:30px;
 	margin-right: 10px;
 }
-/* banner css */
 #header .banner{
 	background: url(../images/bg.jpg) no-repeat center;
 	height:690px;
