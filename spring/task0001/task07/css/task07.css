@@ -65,13 +65,13 @@ a{text-decoration:none;}
     left: 247px;
 }
 #header nav ul li:nth-child(4):hover~.move{
-    left: 345px;
+    left: 348px;
 }
 #header nav ul li:nth-child(5):hover~.move{
-    left: 447px;
+    left: 449px;
 }
 #header nav ul li:nth-child(6):hover~.move{
-    left: 551px;
+    left: 555px;
 }
 #header nav .login{
 	background:url(../images/login.png) no-repeat left;
@@ -109,6 +109,12 @@ a{text-decoration:none;}
 	background:#E7504D;
 	font-size:30px;
 	cursor: pointer;
+    -webkit-transition: background-color 0.5s ease-in-out;
+    -moz-transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
+}
+#header .banner button:hover{
+    background-color:#E31212;
 }
 /* tntroduce css */
 #header .introduce{
@@ -186,18 +192,13 @@ a{text-decoration:none;}
     width: 240px;
     height: 36px;
     margin: 0 10px;
-    
     font-size: 14px;
     line-height: 36px;
     text-align: left;
-    color: #B3B3B3;
-    
+    color: #B3B3B3;    
     display: inline-block;
-    position: relative;
-    
-    box-sizing: border-box;
-    border: 1px solid #C6B3AF;
-    
+    position: relative;    
+    border: 1px solid #C6B3AF;    
     background: url(../images/down.jpg) no-repeat 210px 8px,#fff;
     background-size: 20px;
 }
@@ -273,13 +274,16 @@ a{text-decoration:none;}
     position: relative;
     top: 36px;
     
-    -webkit-transition: background-color 0.4s ease-in-out;
-    -moz-transition: background-color 0.4s ease-in-out;
-    transition: background-color 0.4s ease-in-out;
+    -webkit-transition: background-color 0.5s ease-in-out;
+    -moz-transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
+    -webkit-transition: color 0.5s ease-in-out;
+    -moz-transition: color 0.5s ease-in-out;
+    transition: color 0.5s ease-in-out;
 }
 #container .con_2 input[type="submit"]:hover{
-    background-color: #E31212;
-    border-radius: 3px;
+    color:#E31212;
+    background-color:#fff;
 }
 /* activity css */
 #container .activity{
@@ -368,6 +372,16 @@ a{text-decoration:none;}
 	margin:0 auto;
 	margin-top:50px;
 	line-height:30px;
+    -webkit-transition: background-color 0.5s ease-in-out;
+    -moz-transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
+    -webkit-transition: color 0.5s ease-in-out;
+    -moz-transition: color 0.5s ease-in-out;
+    transition: color 0.5s ease-in-out;
+}
+#container .newtime .right a:hover{
+	background-color: #F04C57;
+	color:#fff;
 }
 #container .newtime .right ul{
 	margin-top:40px;
@@ -425,14 +439,30 @@ a{text-decoration:none;}
 	height:40px;
 	line-height:40px;
 	margin-top:40px;
+
+    -webkit-transition: background-color 0.5s ease-in-out;
+    -moz-transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
+    -webkit-transition: color 0.5s ease-in-out;
+    -moz-transition: color 0.5s ease-in-out;
+    transition: color 0.5s ease-in-out;
 }
 #container .newera .left a{
 	border:2px solid #fff;
 	color:#fff;
 }
+#container .newera .left a:hover{
+	background-color:#fff;
+	color:#E7504D;
+}
 #container .newera .middle a{
 	border:2px solid #E7504D;
 	color:#E7504D;
+
+}
+#container .newera .middle a:hover{
+	background-color: #F04C57;
+	color:#fff;
 }
 #container .newera .line_1{
 	width:40px;
