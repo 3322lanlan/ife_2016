@@ -1,6 +1,7 @@
 *{height: auto; margin:0; padding:0; font-family:"微软雅黑";}
 body{min-width:1200px;}
 li{ list-style: none;}
+a{text-decoration:none;}
 #header .left{
 	float:left;
 }
@@ -34,7 +35,6 @@ li{ list-style: none;}
 	display:block; 
 	height:57px;
 	color:#393a3a;
-	text-decoration: none;
 	color:#777;
 }
 #header nav .mark_1{
@@ -173,7 +173,6 @@ li{ list-style: none;}
 	padding-left:30px;
 }
 #container .item .item_select ul li a{
-	text-decoration: none;
 	color:#777;
 }
 #container .item .item_select ul li:hover{
@@ -274,7 +273,6 @@ li{ list-style: none;}
 	display:block;
 	margin:0 auto;
 	margin-top:50px;
-	text-decoration:none;
 	line-height:30px;
 }
 #container .newtime .right ul{
@@ -333,7 +331,6 @@ li{ list-style: none;}
 	height:40px;
 	line-height:40px;
 	margin-top:40px;
-	text-decoration: none;
 }
 #container .newera .left a{
 	border:2px solid #fff;
@@ -385,7 +382,7 @@ li{ list-style: none;}
 	height:130px;
 }
 #container .information .inf_left .getblod{
-	font-size:14px;
+	font-size:18px;
 }
 #container .information .inf_left .getcol{
 	font-size:12px;
@@ -394,7 +391,6 @@ li{ list-style: none;}
 	margin-top: 20px;
 }
 #container .information .inf_left a{
-	text-decoration: none;
 	background: url(../images/more.png) no-repeat left;
 	padding-left:15px;
 	color:#aaa;
@@ -482,7 +478,6 @@ footer .foot .foot_l{
 	padding:20px 0 0 100px;
 }
 footer .foot .foot_r a{
-	text-decoration:none;
 	float:right;
 	padding:20px 100px 0 0;
 	color:#fff;
