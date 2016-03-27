@@ -241,7 +241,6 @@ a{text-decoration:none;}
     margin: 0;
     padding: 0;
     width: 240px;
-    box-sizing: border-box;
     border: 2px solid #AE7271;
     border-top-width: 0;
 }
@@ -520,6 +519,9 @@ a{text-decoration:none;}
 	color:#aaa;
 	float:right;
 }
+#container .information .inf_left a:hover{
+	color:#E31212;
+}
 #container .information .inf_right{
 	float:right;
 }
@@ -546,6 +548,7 @@ a{text-decoration:none;}
 #container .information .inf_right .sub{
 	width:100%;
 	font-size: 16px;
+	cursor:pointer;
 }
 /*footer css*/
 footer{
