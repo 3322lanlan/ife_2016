@@ -82,7 +82,7 @@ a{text-decoration:none;}
 	height:690px;
 	position:relative;
 	width:100%;
-	background-size:100% 100%;
+	background-size:cover;
 }
 #header .banner h1,h2,button{
 	position:absolute;
@@ -156,7 +156,7 @@ a{text-decoration:none;}
 	background:url(../images/map.jpg) no-repeat center;
 	text-align:center;
 	color:#fff;
-	background-size:100% 
+	background-size:cover;
 }
 #container .con_2 .title_1{
 	font-size:20px;
@@ -319,7 +319,7 @@ a{text-decoration:none;}
 	height:100%;
 	width: 66.6%;
 	background:url(../images/newtime.png) no-repeat left;
-	background-size:100%;
+	background-size:cover;
 }
 #container .newtime .left .mark_1{
 	padding-top: 100px;
@@ -400,7 +400,7 @@ a{text-decoration:none;}
 }
 #container .newera .right{
 	background:url(../images/newworld.png) no-repeat center;
-	background-size:100% 100%;
+	background-size:cover;
 	float:right;
 	width:33.3%;
 	height:522px;
