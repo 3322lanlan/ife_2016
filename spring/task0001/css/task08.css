@@ -1,0 +1,7 @@
+body{
+		margin:0;padding:0; 
+}
+.row{
+		padding-right: 20px;
+}
+/*-- 清除每一行最后一个元素的浮动 -- */ 
