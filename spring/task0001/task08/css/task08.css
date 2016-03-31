@@ -1,8 +1,14 @@
 body{
-		margin:0;padding:0; 
+	margin:0;padding:0; 
+}
+.container{
+    box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+    padding: 10px;
 }
 .row{
-		padding-right: 20px;
+	padding-right: 20px;
 }
 /*-- 清除每一行最后一个元素的浮动 -- */ 
 .row:before,.row:after {
