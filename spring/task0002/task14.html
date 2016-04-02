@@ -27,8 +27,8 @@
 	         */
 	        var array = [];
 	        for(var i = 0; i<aqiData.length;i++){
-	        	if(aqiData[i][1]>60){
-	        		array.push(aqiData[i][0],aqiData[i][1]);
+	        	if(aqiData[i][1]>60) {
+	        		array.push([aqiData[i][0],aqiData[i][1]]);
 	        	}
 	        }
 	        array.sort(function(fir,sec){
@@ -36,7 +36,7 @@
 	        })
 	        var result = '';
 	        for(i = 0;i<array.length;i++){
-	        	result += '<li>第' + (i + 1) + '名' + array[i][0] + '' + array[i][1] + '</li>';
+	        	result += '<li>第' + (i + 1) + '名：' + array[i][0] + '' + array[i][1] + '</li>';
 	        }
 	        document.getElementById('aqi-list').innerHTML = result;
 	    })();    
