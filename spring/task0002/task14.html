@@ -8,7 +8,7 @@
 	<h3>污染城市列表</h3>
 	<ul id="aqi-list">
 	    <!--<li>第一名：福州（样例），10</li>
-	        <li>第二名：福州（样例），10</li> -->
+	    <li>第二名：福州（样例），10</li> -->
 	</ul>
 	<script type="text/javascript">
 	    var aqiData = [
@@ -25,30 +25,21 @@
 	         遍历读取aqiData中各个城市的数据
 	         将空气质量指数大于60的城市显示到aqi-list的列表中
 	         */
-	        /*利用filter方法,生成一个新的数组然后sort排序*/
-	        var newData = aqiData.filter(function (data) {
-	            return data[1] > 60;
-	        }).sort(function (num1, num2) {
-	            return num2[1] - num1[1];
-	        });
-			/*
+	        var array = [];
+	        for(var i = 0; i<aqiData.length;i++){
+	        	if(aqiData[i][1]>60){
+	        		array.push(aqiData[i][0],aqiData[i][1]);
+	        	}
+	        }
+	        array.sort(function(fir,sec){
+	        	return sec[1] - fir[1];
+	        })
 	        var result = '';
-	        /!*进行li的拼接 虽然想用creatElemnt,但是没有找到好的方式,希望点拨*!/
-	        for (var i = 1; i <= newData.length; i++) {
-	            result += '<li>第' + i + '名: ' + newData[i - 1].join(', ') + '</li>';
+	        for(i = 0;i<array.length;i++){
+	        	result += '<li>第' + (i + 1) + '名' + array[i][0] + '' + array[i][1] + '</li>';
 	        }
 	        document.getElementById('aqi-list').innerHTML = result;
-			*/
-	        /*创建文档碎片节点, 替代上面维护性差的方法. */
-	        var liFragment = document.createDocumentFragment();
-	        for (var i = 1; i <= newData.length; i++) {
-	            var li = document.createElement('li');
-	            var text = document.createTextNode('第' + i + '名: ' + newData[i - 1].join(', '));
-	            li.appendChild(text);
-	            liFragment.appendChild(li);
-	        }
-	        document.getElementById('aqi-list').appendChild(liFragment);
-	    })();
+	    })();    
 	</script>
 </body>
 </html>
